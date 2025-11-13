@@ -289,6 +289,18 @@ nav {
     transition: color 0.3s ease;
 }
 
+.phone-link {
+    display: inline-block; /* Ensures proper padding/margin */
+    color: #090000; /* Link color */
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.phone-link:hover {
+    color: #015893; /* Hover color for phone link */
+}
+
 .footer_section ul li a:hover,
 .footer_section p a:hover {
     color: #00bcd4; /* Hover color for links */
